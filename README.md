@@ -24,6 +24,10 @@ What we created was:
 5. App Employee 
 ``` 
 This is how it should look like:
+<<<<<<< HEAD
+=======
+
+>>>>>>> fa0359aa4eb3fdca7f96821f2ba0acc8b113fecd
 ![imag](https://user-images.githubusercontent.com/107006360/187561308-133896bc-a278-4edb-be37-1b6806611b20.png)
 
 ### Week 3: 
