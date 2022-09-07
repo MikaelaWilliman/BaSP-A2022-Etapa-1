@@ -23,14 +23,11 @@ What we created was:
 4. App Employee PM
 5. App Employee 
 ``` 
-This is how it should look like:
-<<<<<<< HEAD
-=======
+We start with creating the html structure to start our page.
 
->>>>>>> fa0359aa4eb3fdca7f96821f2ba0acc8b113fecd
 ![imag](https://user-images.githubusercontent.com/107006360/187561308-133896bc-a278-4edb-be37-1b6806611b20.png)
 
 ### Week 3: 
-I worked on the landing page, on the HTML structure.
+This week we focus on designing the web page in CSS with respect to the landing.
 
 _By Author Mikaela Williman_
