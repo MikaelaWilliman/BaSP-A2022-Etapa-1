@@ -11,7 +11,8 @@ This company has asked us for a web system that facilitates the recording of hou
 ``` 
 ### Project link:
 ```
-file:///C:/Users/mikaw/Desktop/BaSP-A2022-Etapa-1/Semana-01/index.html
+file:///C:/Users/mikaw/Desktop/BaSP-A2022-Etapa-1/Semana-03/index.html?Message=
+
 ``` 
 ### Week 2:
 We work on Figma, on organizing how we want Trackgenix to be.
