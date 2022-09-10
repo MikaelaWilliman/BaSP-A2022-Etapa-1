@@ -1,873 +1,899 @@
 body {
-    background: #FFFF;
-    font-family: 'Roboto', sans-serif;
+  background: #ffff;
+  font-family: "Roboto", sans-serif;
 }
 h1 {
-    background: #FF0000;
-    color: #FFFF;
-    text-align: center;
-    margin-top: 86px;
-    height: 65px;
-    width: 686px;
-    margin-left: 430px;
-    padding: 20px;
-    border-radius: 15px;
-    font-size: 42px;
-    line-height: 49px;
-    }
-    .subtitule {
-    position: absolute;
-    font-style: italic;
-    width: 439px;
-    height: 25px;
-    left: 593px;
-    top: 289px;
-    }
-.picture { 
-    position: absolute;
-    width: 417px;
-    height: 339px;
-    left: 490px;
-    top: 402px;
-    }
+  background: #ff0000;
+  color: #ffff;
+  text-align: center;
+  margin-top: 86px;
+  height: 65px;
+  width: 686px;
+  margin-left: 430px;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 42px;
+  line-height: 49px;
+}
+.subtitule {
+  position: absolute;
+  font-style: italic;
+  width: 439px;
+  height: 25px;
+  left: 593px;
+  top: 289px;
+}
+.picture {
+  position: absolute;
+  width: 417px;
+  height: 339px;
+  left: 490px;
+  top: 402px;
+}
 aside {
-    position: fixed;
-    width: 250px;
-    height: 900px;
-    left: 0px;
-    top: 0px;
-    float: left;
+  position: fixed;
+  width: 250px;
+  height: 900px;
+  left: 0px;
+  top: 0px;
+  float: left;
 }
 .Icon-home {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 50px;
-    top: 80px;
-  }
-  .Home {
-    position: absolute;
-    text-decoration: underline double;
-    width: 84px;
-    height: 22px;
-    left: 100px;
-    top: 60px;
-    color: #FFFFFF;   
- }
- .Icon-signup {
-    position: absolute;
-    width: 23px;
-    height: 23px;
-    left: 50px;
-    top: 315px;
- }
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 50px;
+  top: 80px;
+}
+.Home {
+  position: absolute;
+  text-decoration: underline double;
+  width: 84px;
+  height: 22px;
+  left: 100px;
+  top: 60px;
+  color: #ffffff;
+}
+.Icon-signup {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  left: 50px;
+  top: 315px;
+}
 .Signup {
-    position: absolute;
-    width: 78px;
-    height: 23px;
-    left: 105px;
-    top: 300px;
-    color: #FFFFFF;
+  position: absolute;
+  width: 78px;
+  height: 23px;
+  left: 105px;
+  top: 300px;
+  color: #ffffff;
 }
 .Icon-login {
-    position: absolute;
-    width: 23px;
-    height: 23px;
-    left: 50px;
-    top: 380px;
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  left: 50px;
+  top: 380px;
 }
-.Login { 
-    position: absolute;
-    width: 56px;
-    height: 23px;
-    left: 100px;
-    top: 360px;
-    color: #FFFFFF;
+.Login {
+  position: absolute;
+  width: 56px;
+  height: 23px;
+  left: 100px;
+  top: 360px;
+  color: #ffffff;
 }
 .Icon-contact {
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    left: 25px;
-    top: 700px;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 25px;
+  top: 700px;
 }
-.contact { 
-    position: absolute;
-    text-decoration: underline;
-    width: 79px;
-    height: 21px;
-    left: 73px;
-    top: 680px;
-    font-weight: 400;
-    font-size: 20px;
-    color: #FFFF;
+.contact {
+  position: absolute;
+  text-decoration: underline;
+  width: 79px;
+  height: 21px;
+  left: 73px;
+  top: 680px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffff;
 }
 .Icon-phone {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 25px;
-    top: 750px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 25px;
+  top: 750px;
 }
 .phone {
-    position: absolute;
-    width: 110px;
-    height: 18px;
-    left: 72.14px;
-    top: 730px;
-    font-weight: 400;
-    font-size: 16px;
-    color: #FFFFFF;
+  position: absolute;
+  width: 110px;
+  height: 18px;
+  left: 72.14px;
+  top: 730px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
 }
 .Icon-mail {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 25px;
-    top: 805px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 25px;
+  top: 805px;
 }
-.mail { 
-    position: absolute;
-    width: 169px;
-    height: 18px;
-    left: 60px;
-    top: 782px;
-    font-weight: 400;
-    font-size: 16px;
-    color: #FFFFFF; 
- } 
-   .p1 {
-    position: relative;
-    width: 320px;
-    height: 124px;
-    left: 1028px;
-    top: 280px;
-    font-style: italic;
+.mail {
+  position: absolute;
+  width: 169px;
+  height: 18px;
+  left: 60px;
+  top: 782px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+.p1 {
+  position: relative;
+  width: 320px;
+  height: 124px;
+  left: 1028px;
+  top: 280px;
+  font-style: italic;
 }
 .p1-2 {
-    position: relative;
-    width: 320px;
-    height: 124px;
-    left: 1028px;
-    top: 180px;
-    font-style: italic;
+  position: relative;
+  width: 320px;
+  height: 124px;
+  left: 1028px;
+  top: 180px;
+  font-style: italic;
 }
 .p1-3 {
-    position: relative;
-    width: 320px;
-    height: 124px;
-    left: 1028px;
-    top: 100px;
-    font-style: italic;
+  position: relative;
+  width: 320px;
+  height: 124px;
+  left: 1028px;
+  top: 100px;
+  font-style: italic;
 }
 /*page 2*/
 .Functions {
-    background: #FF0000;
-    color: #FFFF;
-    position: relative;
-    text-align: center;
-    width: 472px;
-    height: 70px;
-    left: 576px;
-    top: 480px;
-    line-height: 70px;
-    font-size: 28px;
+  background: #ff0000;
+  color: #ffff;
+  position: relative;
+  text-align: center;
+  width: 472px;
+  height: 70px;
+  left: 576px;
+  top: 480px;
+  line-height: 70px;
+  font-size: 28px;
 }
-.Diamond-1 { 
-    position: relative;
-    width: 98.92px;
-    height: 98.92px;
-    left: 450px;
-    top: 750px;
-    background: #FF0000;
-    border-radius: 10px;
-    transform: matrix(0.71, 0.7, -0.7, 0.71, 0, 0);
+.Diamond-1 {
+  position: relative;
+  width: 98.92px;
+  height: 98.92px;
+  left: 450px;
+  top: 750px;
+  background: #ff0000;
+  border-radius: 10px;
+  transform: matrix(0.71, 0.7, -0.7, 0.71, 0, 0);
 }
 .Calendar-1 {
-    position: relative;
-    width: 98.92px;
-    height: 98.92px;
-    left: 350px;
-    top: 750px;
+  position: relative;
+  width: 98.92px;
+  height: 98.92px;
+  left: 350px;
+  top: 750px;
 }
 .Record-hours {
-    position: relative;
-    width: 236.58px;
-    height: 37px;
-    left: 579.15px;
-    top: 570px;
-    font-weight: 700;
-    font-size: 32px;
+  position: relative;
+  width: 236.58px;
+  height: 37px;
+  left: 579.15px;
+  top: 570px;
+  font-weight: 700;
+  font-size: 32px;
 }
 .Diamond-2 {
-    position: relative;
-    width: 98.92px;
-    height: 98.92px;
-    left: 985.16px;
-    top: 550px;
-    background:#FF0000;
-    border-radius: 10px;
-    transform: matrix(0.71, 0.7, -0.7, 0.71, 0, 0);
+  position: relative;
+  width: 98.92px;
+  height: 98.92px;
+  left: 985.16px;
+  top: 550px;
+  background: #ff0000;
+  border-radius: 10px;
+  transform: matrix(0.71, 0.7, -0.7, 0.71, 0, 0);
 }
 .Calendar-2 {
-    position: relative;
-    font-weight: 10px;
-    width: 98.92px;
-    height: 98.92px;
-    left: 880px;
-    top: 545px;
+  position: relative;
+  font-weight: 10px;
+  width: 98.92px;
+  height: 98.92px;
+  left: 880px;
+  top: 545px;
 }
 .Resource {
-    position: relative;
-    width: 337.32px;
-    height: 93.85px;
-    left: 579.15px;
-    top: 620.12px;
-    font-weight: 700;
-    font-size: 32px;
+  position: relative;
+  width: 337.32px;
+  height: 93.85px;
+  left: 579.15px;
+  top: 620.12px;
+  font-weight: 700;
+  font-size: 32px;
 }
 .Reports {
-    position: relative;
-    width: 339.12px;
-    height: 119.12px;
-    left: 1100px;
-    top: 365px;
-    font-weight: 700;
-    font-size: 32px; 
+  position: relative;
+  width: 339.12px;
+  height: 119.12px;
+  left: 1100px;
+  top: 365px;
+  font-weight: 700;
+  font-size: 32px;
 }
 .Diamond-3 {
-    position: relative;
-    width: 98.92px;
-    height: 98.92px;
-    left: 450px;
-    top: 550px;
-    background: #FF0000;
-    border-radius: 10px;
-    transform: matrix(0.71, 0.7, -0.7, 0.71, 0, 0);
+  position: relative;
+  width: 98.92px;
+  height: 98.92px;
+  left: 450px;
+  top: 550px;
+  background: #ff0000;
+  border-radius: 10px;
+  transform: matrix(0.71, 0.7, -0.7, 0.71, 0, 0);
 }
 .Calendar-3 {
-    position: relative;
-    font-weight: 10px;
-    width: 98.92px;
-    height: 98.92px;
-    left: 350px;
-    top: 550px;   
+  position: relative;
+  font-weight: 10px;
+  width: 98.92px;
+  height: 98.92px;
+  left: 350px;
+  top: 550px;
 }
 .Resource {
-    position: relative;
-    width: 339.12px;
-    height: 119.12px;
-    left: 579.15px;
-    top: 300px;
-    font-weight: 700;
-    font-size: 32px;
- }
- .Diamond-4 {
-    position: relative;
-    width: 98.92px;
-    height: 98.92px;
-    left: 985.16px;
-    top: 405px;
-    background: #FF0000;
-    border-radius: 10px;
-    transform: matrix(0.71, 0.7, -0.7, 0.71, 0, 0);
+  position: relative;
+  width: 339.12px;
+  height: 119.12px;
+  left: 579.15px;
+  top: 300px;
+  font-weight: 700;
+  font-size: 32px;
+}
+.Diamond-4 {
+  position: relative;
+  width: 98.92px;
+  height: 98.92px;
+  left: 985.16px;
+  top: 405px;
+  background: #ff0000;
+  border-radius: 10px;
+  transform: matrix(0.71, 0.7, -0.7, 0.71, 0, 0);
 }
 .Calendar-4 {
-    position: relative;
-    font-weight: 10px;
-    width: 98.92px;
-    height: 98.92px;
-    left: 880px;
-    top: 405px;  
+  position: relative;
+  font-weight: 10px;
+  width: 98.92px;
+  height: 98.92px;
+  left: 880px;
+  top: 405px;
 }
 .Multiple {
-    position: relative;
-    width: 339.12px;
-    height: 119.12px;
-    left: 1100px;
-    top: 220px;
-    font-weight: 700;
-    font-size: 32px;
+  position: relative;
+  width: 339.12px;
+  height: 119.12px;
+  left: 1100px;
+  top: 220px;
+  font-weight: 700;
+  font-size: 32px;
 }
-    /*page three*/
+/*page three*/
 .Why {
-    position: relative;
-    width: 472px;
-    height: 72px;
-    left: 571px;
-    top: 420px;
-    line-height: 72px;
-    text-align: center;
-    color: #FFFFFF;
-    background: #FF0000;
+  position: relative;
+  width: 472px;
+  height: 72px;
+  left: 571px;
+  top: 420px;
+  line-height: 72px;
+  text-align: center;
+  color: #ffffff;
+  background: #ff0000;
 }
 .Boost {
-    position: relative;
-    width: 211.03px;
-    height: 26.99px;
-    left: 513.3px;
-    top: 420px;
-    font-weight: 500;
-    font-size: 24px;
+  position: relative;
+  width: 211.03px;
+  height: 26.99px;
+  left: 513.3px;
+  top: 420px;
+  font-weight: 500;
+  font-size: 24px;
 }
 .Trending-up {
-    position: relative;
-    width: 70.2px;
-    height: 70.2px;
-    left: 370px;
-    top: 535px;
+  position: relative;
+  width: 70.2px;
+  height: 70.2px;
+  left: 370px;
+  top: 535px;
 }
 .B-p {
-    top: 407px;
- }
+  top: 407px;
+}
 .B-p2 {
-    top: 337px;
+  top: 337px;
 }
 .B-p3 {
-    top: 267px;   
+  top: 267px;
 }
-.B-p,.B-p2,.B-p3 {
-    position: relative;
-    text-align: center;
-    width: 381.77px;
-    height: 72.3px;
-    left: 420px;
-    font-size: 15px;
-    color: rgba(0, 0, 0, 0.6);
+.B-p,
+.B-p2,
+.B-p3 {
+  position: relative;
+  text-align: center;
+  width: 381.77px;
+  height: 72.3px;
+  left: 420px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
 }
 .Work {
-    position: relative;
-    width: 227.33px;
-    height: 40.49px;
-    left: 1156.67px;
-    top: 18px;
-    font-weight: 500;
-    font-size: 24px;
+  position: relative;
+  width: 227.33px;
+  height: 40.49px;
+  left: 1156.67px;
+  top: 18px;
+  font-weight: 500;
+  font-size: 24px;
 }
 .Calendar-check {
-   position: relative;
-   width: 70.2px;
-   height: 70.2px;
-   left: 1030px; 
-   top: 130px;
+  position: relative;
+  width: 70.2px;
+  height: 70.2px;
+  left: 1030px;
+  top: 130px;
 }
 .W-p {
-    top: -10px;
+  top: -10px;
 }
 .W-p2 {
-    top: -72px;
+  top: -72px;
 }
-.W-p,.W-p2 {
-    position: relative;
-    width: 284.89px;
-    height: 63.62px;
-    left: 1080px;
-    font-size: 15px;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.6);
+.W-p,
+.W-p2 {
+  position: relative;
+  width: 284.89px;
+  height: 63.62px;
+  left: 1080px;
+  font-size: 15px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
 }
 .Leadership {
-    position: relative;
-    width: 369.3px;
-    height: 29.88px;
-    left: 471.3px;
-    top: 100px;
-    font-weight: 500;
-    font-size: 24px;
+  position: relative;
+  width: 369.3px;
+  height: 29.88px;
+  left: 471.3px;
+  top: 100px;
+  font-weight: 500;
+  font-size: 24px;
 }
 .Users {
-    position: relative;
-    width: 70.2px;
-    height: 70.2px;
-    left: 370px;
-    top: 180px;
+  position: relative;
+  width: 70.2px;
+  height: 70.2px;
+  left: 370px;
+  top: 180px;
 }
 .L-p {
-    left: 424px;
-    top: 88px;
+  left: 424px;
+  top: 88px;
 }
- .L-p2 {
-    left: 425px;
-    top: 17px;
+.L-p2 {
+  left: 425px;
+  top: 17px;
 }
 .L-p3 {
-    left: 420px;
-    top: -55px;
+  left: 420px;
+  top: -55px;
 }
-.L-p,.L-p2,.L-p3 {
-    position: relative;
-    width: 381.77px;
-    height: 72.3px;
-    font-size: 15px;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.6);
+.L-p,
+.L-p2,
+.L-p3 {
+  position: relative;
+  width: 381.77px;
+  height: 72.3px;
+  font-size: 15px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
 }
- .Decision {
-    position: relative;
-     width: 227.33px;
-    height: 40.49px;
-    left: 1156.67px;
-    top: -320px;
-    font-weight: 500;
-    font-size: 24px;
+.Decision {
+  position: relative;
+  width: 227.33px;
+  height: 40.49px;
+  left: 1156.67px;
+  top: -320px;
+  font-weight: 500;
+  font-size: 24px;
 }
 .Arrows {
-    position: relative;
-    width: 70.2px;
-    height: 70.2px;
-    left: 1030px;
-    top: -225px;
+  position: relative;
+  width: 70.2px;
+  height: 70.2px;
+  left: 1030px;
+  top: -225px;
 }
 .D-p {
-    left: 1084px;
-    top: -345px;
+  left: 1084px;
+  top: -345px;
 }
 .D-p2 {
-    left: 1090px;
-    top: -407px;
+  left: 1090px;
+  top: -407px;
 }
-.D-p,.D-p2 {
-    position: relative;
-    width: 284.89px;
-    height: 63.62px;
-    font-size: 15px;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.6);
+.D-p,
+.D-p2 {
+  position: relative;
+  width: 284.89px;
+  height: 63.62px;
+  font-size: 15px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
 }
 /*page four*/
 .Information {
-    position: relative;
-    width: 737px;
-    height: 72px;
-    left: 442px;
-    color: #FFFF;
-    background: #FF0000;
-    font-size: 24px;
-    line-height: 72px;
-    text-align: center;
+  position: relative;
+  width: 737px;
+  height: 72px;
+  left: 442px;
+  color: #ffff;
+  background: #ff0000;
+  font-size: 24px;
+  line-height: 72px;
+  text-align: center;
 }
 .Rectangle-info {
-    position: relative;
-    width: 737px;
-    height: 439px;
-    left: 442px;
-    top: -20px;
+  position: relative;
+  width: 737px;
+  height: 439px;
+  left: 442px;
+  top: -20px;
 }
 .Name {
-    left: 521px;
-    top: -430px;
+  left: 521px;
+  top: -430px;
 }
 .Email {
-    left: 521px;
-    top: -645px;
+  left: 521px;
+  top: -645px;
 }
 .Contact-area {
-    left: 540px;
-    top: -860px;
+  left: 540px;
+  top: -860px;
 }
 .Message {
-    left: 520px;
-    top: -1080px;
+  left: 520px;
+  top: -1080px;
 }
-.Name,.Email,.Contact-area,.Message {
-    position: relative;
-    width: 246px;
-    height: 250px;
-    font-weight: 700;
-    font-size: 22px;
+.Name,
+.Email,
+.Contact-area,
+.Message {
+  position: relative;
+  width: 246px;
+  height: 250px;
+  font-weight: 700;
+  font-size: 22px;
 }
 .Name-text {
-    width: 255px;
-    height: 33px;
-    left: 786px;
-    top: 3350px;
+  width: 255px;
+  height: 33px;
+  left: 786px;
+  top: 3350px;
 }
 .Email-text {
-    width: 255px;
-    height: 33px;
-    left: 786px;
-    top: 3400px;
+  width: 255px;
+  height: 33px;
+  left: 786px;
+  top: 3400px;
 }
 .Message-text {
-    width: 255px;
-    height: 136px;
-    left: 786px;
-    top: 3540px;
+  width: 255px;
+  height: 136px;
+  left: 786px;
+  top: 3540px;
 }
-.Name-text,.Email-text,.Message-text {
-    position: absolute;
-    background: #FFFF;
-    border: #FFFF;
+.Name-text,
+.Email-text,
+.Message-text {
+  position: absolute;
+  background: #ffff;
+  border: #ffff;
 }
 .HR {
-    left: 770px;
-    top: -1100px;
+  left: 770px;
+  top: -1100px;
 }
 .Systems {
-    left: 660px;
-    top: -1080px;
+  left: 660px;
+  top: -1080px;
 }
 .Commercialization {
-    left: 588px;
-    top: -1060px;
+  left: 588px;
+  top: -1060px;
 }
-.HR,.Systems,.Commercialization {
-    position: relative;
-    width: 96px;
-    height: 16px;
-    font-size: 14px;
+.HR,
+.Systems,
+.Commercialization {
+  position: relative;
+  width: 96px;
+  height: 16px;
+  font-size: 14px;
 }
 .Confirm-button {
-    position: relative;
-    height: 40.64px;
-    width: 255px;
-    left: 780px;
-    top: -1170px;
-    color: #FFFF;
-    background: #FF0000;
+  position: relative;
+  height: 40.64px;
+  width: 255px;
+  left: 780px;
+  top: -1170px;
+  color: #ffff;
+  background: #ff0000;
 }
 /*page five*/
 .History-title {
-    position: relative;
-    width: 430px;
-    height: 65.59px;
-    left: 643px;
-    top: -880px;
-    text-align: center;
-    font-size: 30px;
-    line-height: 65.59px;
-    color: #FFFF;
-    background: #FF0000;
+  position: relative;
+  width: 430px;
+  height: 65.59px;
+  left: 643px;
+  top: -880px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 65.59px;
+  color: #ffff;
+  background: #ff0000;
 }
 .Rectangle-history {
-    position: relative;
-    width: 1235px;
-    height: 830px;
-    left: 277px;
-    top: -890px;
-    background: rgba(236, 74, 74, 0.46);
-    backdrop-filter: blur(15px);
+  position: relative;
+  width: 1235px;
+  height: 830px;
+  left: 277px;
+  top: -890px;
+  background: rgba(236, 74, 74, 0.46);
+  backdrop-filter: blur(15px);
 }
 .History-1 {
-    left: -938px;
-    top: -1315px;
+  left: -938px;
+  top: -1315px;
 }
-.History-2  {
-    left: 300px;
-    top: -1270px;
+.History-2 {
+  left: 300px;
+  top: -1270px;
 }
 .History-3 {
-    left: 320px;
-    top: -1270px;
+  left: 320px;
+  top: -1270px;
 }
 .History-4 {
-    left: 340px;
-    top: -1270px;
+  left: 340px;
+  top: -1270px;
 }
 .History-5 {
-    left: -445px;
-    top: -1668px;
+  left: -445px;
+  top: -1668px;
 }
-.History-6 { 
-    left: 1100px;
-    top: -2020px;
+.History-6 {
+  left: 1100px;
+  top: -2020px;
 }
-.History-1,.History-2,.History-3,.History-4,.History-5,.History-6 {
-    position: relative;
-    width: 377.83px;
-    height: 347.75px;
+.History-1,
+.History-2,
+.History-3,
+.History-4,
+.History-5,
+.History-6 {
+  position: relative;
+  width: 377.83px;
+  height: 347.75px;
 }
 .H2007 {
-    position: relative;
-    width: 97.73px;
-    height: 19.05px;
-    left: 367.33px;
-    top: -2430px;
-    font-family: 'Rokkitt';
-    font-weight: 500;
-    font-size: 36px;
-    align-items: center;
+  position: relative;
+  width: 97.73px;
+  height: 19.05px;
+  left: 367.33px;
+  top: -2430px;
+  font-family: "Rokkitt";
+  font-weight: 500;
+  font-size: 36px;
+  align-items: center;
 }
 .p2007 {
-    position: relative;
-    width: 280px;
-    height: 133.56px;
-    left: 329.28px;
-    top: -2400px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #FFFF;
+  position: relative;
+  width: 280px;
+  height: 133.56px;
+  left: 329.28px;
+  top: -2400px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffff;
 }
 .H2011 {
-    position: relative;
-    width: 97.73px;
-    height: 19.05px;
-    left: 781.96px;
-    top: -2658px;
-    font-family: 'Rokkitt';
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 41px;
+  position: relative;
+  width: 97.73px;
+  height: 19.05px;
+  left: 781.96px;
+  top: -2658px;
+  font-family: "Rokkitt";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 41px;
 }
 .p2011 {
-    position: relative;
-    width: 280px;
-    height: 263.97px;
-    left: 732.77px;
-    top: -2660px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #FFFF;
+  position: relative;
+  width: 280px;
+  height: 263.97px;
+  left: 732.77px;
+  top: -2660px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffff;
 }
-.H2014 { 
-    position: relative;
-    width: 97.73px;
-    height: 19.05px;
-    left: 1178.81px;
-    top: -3012px;
-    font-family: 'Rokkitt';
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 41px;
+.H2014 {
+  position: relative;
+  width: 97.73px;
+  height: 19.05px;
+  left: 1178.81px;
+  top: -3012px;
+  font-family: "Rokkitt";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 41px;
 }
 .p2014 {
-    position: relative;
-    width: 320px;
-    height: 328.37px;
-    left: 1141.17px;
-    top: -3060px;
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #FFFF;
+  position: relative;
+  width: 320px;
+  height: 328.37px;
+  left: 1141.17px;
+  top: -3060px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffff;
 }
 .H2018 {
-    position: relative;
-    width: 97.73px;
-    height: 19.05px;
-    left: 367.33px;
-    top: -3032px;
-    font-family: 'Rokkitt';
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 41px;
+  position: relative;
+  width: 97.73px;
+  height: 19.05px;
+  left: 367.33px;
+  top: -3032px;
+  font-family: "Rokkitt";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 41px;
 }
-.p2018 { 
-    position: relative;
-    width: 330px;
-    height: 399.13px;
-    left: 306.4px;
-    top: -3125px;
-    font-weight: 500px;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #FFFF;
+.p2018 {
+  position: relative;
+  width: 330px;
+  height: 399.13px;
+  left: 306.4px;
+  top: -3125px;
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffff;
 }
 .H2021 {
-    position: relative;
-    width: 97.73px;
-    height: 19.05px;
-    left: 781.96px;
-    top: -3522px;
-    font-family: 'Rokkitt';
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 41px;
+  position: relative;
+  width: 97.73px;
+  height: 19.05px;
+  left: 781.96px;
+  top: -3522px;
+  font-family: "Rokkitt";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 41px;
 }
 .p2021 {
-    position: relative;
-    width: 300px;
-    height: 281.2px;
-    left: 729.51px;
-    top: -3575px;
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #FFFF;
+  position: relative;
+  width: 300px;
+  height: 281.2px;
+  left: 729.51px;
+  top: -3575px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffff;
 }
-.H2022 { 
-    position: relative;
-    width: 97.73px;
-    height: 19.05px;
-    left: 1178.82px;
-    top: -3893px;
-    font-family: 'Rokkitt';
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 41px;
+.H2022 {
+  position: relative;
+  width: 97.73px;
+  height: 19.05px;
+  left: 1178.82px;
+  top: -3893px;
+  font-family: "Rokkitt";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 41px;
 }
-.p2022 { 
-    position: relative;
-    width: 280px;
-    height: 335.63px;
-    left: 1141.8px;
-    top: -3935px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #FFFF;
+.p2022 {
+  position: relative;
+  width: 280px;
+  height: 335.63px;
+  left: 1141.8px;
+  top: -3935px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffff;
 }
-/*page Six*/ 
+/*page Six*/
 .Products {
-    position:relative;
-    width: 155px;
-    height: 35px;
-    left: 471px;
-    top: -3700px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 35px;
-    color: #FF0000;
+  position: relative;
+  width: 155px;
+  height: 35px;
+  left: 471px;
+  top: -3700px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ff0000;
 }
 .Products-Icon {
-    position: relative;
-    width: 35px;
-    height: 36.94px;
-    left: 411px;
-    top: -3635px;
+  position: relative;
+  width: 35px;
+  height: 36.94px;
+  left: 411px;
+  top: -3635px;
 }
 .Functionalities-li {
-    top: -3715px;
+  top: -3715px;
 }
 .Downloads-li {
-    top: -3680px;
+  top: -3680px;
 }
 .Integration-li {
-    top: -3650px;
+  top: -3650px;
 }
 .Extra-li {
-    top: -3620px;
+  top: -3620px;
 }
-.Functionalities-li,.Downloads-li,.Integration-li,.Extra-li {
-    position: relative;
-    width: 114px;
-    height: 16px;
-    left: 460px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    color: #747474;
+.Functionalities-li,
+.Downloads-li,
+.Integration-li,
+.Extra-li {
+  position: relative;
+  width: 114px;
+  height: 16px;
+  left: 460px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #747474;
 }
 .Business {
-    position: relative;
-    width: 142px;
-    height: 35px;
-    left: 831px;
-    top: -3925px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 35px;
-    color: #FF0000;
+  position: relative;
+  width: 142px;
+  height: 35px;
+  left: 831px;
+  top: -3925px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ff0000;
 }
 .Business-Icon {
-    position: relative;
-    height: 45px;
-    width: 51px;
-    left: 763px;
-    top: -3860px;
-    border-radius: 1px;
+  position: relative;
+  height: 45px;
+  width: 51px;
+  left: 763px;
+  top: -3860px;
+  border-radius: 1px;
 }
 .Elipse-Icon {
-    position: relative;
-    height: 35px;
-    width: 51px;
-    left: 748px;
-    top: -4010px;
-    border-radius: 1px;
+  position: relative;
+  height: 35px;
+  width: 51px;
+  left: 748px;
+  top: -4010px;
+  border-radius: 1px;
 }
 .About-us {
-    top: -3995px;
+  top: -3995px;
 }
 .Clients {
-    top: -3960px;
+  top: -3960px;
 }
 .Resource {
-    top: -3930px;
+  top: -3930px;
 }
 .Blog {
-    top: -3900px;
+  top: -3900px;
 }
-.About-us,.Clients,.Resource,.Blog {
-    position: relative;
-    width: 81px;
-    height: 16px;
-    left: 822px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    color: #747474;
+.About-us,
+.Clients,
+.Resource,
+.Blog {
+  position: relative;
+  width: 81px;
+  height: 16px;
+  left: 822px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #747474;
 }
 .Support {
-    position: relative;
-    width: 135px;
-    height: 35px;
-    left: 1195px;
-    top: -4197px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 35px;
-    color: #FF0000;
+  position: relative;
+  width: 135px;
+  height: 35px;
+  left: 1195px;
+  top: -4197px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ff0000;
 }
 .Support-Icon {
-    position: relative;
-    width: 135px;
-    height: 35px;
-    left: 1085px;
-    top: -4130px;
+  position: relative;
+  width: 135px;
+  height: 35px;
+  left: 1085px;
+  top: -4130px;
 }
 .Help {
-    top: -4210px;
+  top: -4210px;
 }
 .Tutorials {
-    top: -4180px;
+  top: -4180px;
 }
 .API {
-    top: -4150px;
+  top: -4150px;
 }
 .Cont {
-    top: -4120px;
+  top: -4120px;
 }
-.Help,.Tutorials,.API,.Cont {
-    position: relative;
-    width: 51px;
-    height: 16px;
-    left: 1189px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    color: #747474;
+.Help,
+.Tutorials,
+.API,
+.Cont {
+  position: relative;
+  width: 51px;
+  height: 16px;
+  left: 1189px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #747474;
 }
 footer {
-    position: absolute;
-    color:#FFFF;
-    background: #FF0000;
-    width: 1234px;
-    height: 177px;
-    left: 278px;
-    top: 5700px;
-    text-align: center;
+  position: absolute;
+  color: #ffff;
+  background: #ff0000;
+  width: 1234px;
+  height: 177px;
+  left: 278px;
+  top: 5700px;
+  text-align: center;
 }
 footer img {
-    height: 40px;
-    margin: 20px;
-    line-height: 177px;
+  height: 40px;
+  margin: 20px;
+  line-height: 177px;
 }
 footer p {
-    line-height: 7px;
-    font-weight: 700;
-    font-size: 28px;
-    margin: 30px;
- } 
-
+  line-height: 7px;
+  font-weight: 700;
+  font-size: 28px;
+  margin: 30px;
+}
