@@ -1,8 +1,4 @@
-body {
-  background: #ffff;
-  font-family: "Roboto", sans-serif;
-}
-h1 {
+/*h1 {
   background: #ff0000;
   color: #ffff;
   text-align: center;
@@ -161,7 +157,7 @@ aside {
   font-style: italic;
 }
 /*page 2*/
-.Functions {
+/*.Functions {
   background: #ff0000;
   color: #ffff;
   position: relative;

@@ -1,0 +1,41 @@
+/*Mobile*/
+
+@media screen and (max-width: 480px) {
+  aside {
+    display: flex;
+    background-color: rgba(255, 84, 84, 1);
+    width: 100%;
+    height: 85px;
+  }
+  .Icon-phone,
+  .phone,
+  .Icon-mail,
+  .mail,
+  .Icon-login,
+  .Icon-signup {
+    display: none;
+  }
+  .Icon-home,
+  .Icon-contact {
+    height: 15px;
+  }
+  .Home-mobile,
+  .Contact-mobile {
+    display: flex;
+    margin-left: 4%;
+  }
+  .Contact-mobile {
+    margin-top: 2%;
+  }
+  .Signup,
+  .Login {
+    display: flex;
+  }
+  .Nav-aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+    align-content: center;
+  }
+}

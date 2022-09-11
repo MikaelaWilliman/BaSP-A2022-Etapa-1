@@ -8,47 +8,65 @@
       name="description"
       content="This is a tool designed to improve productivity and work managment"
     />
-    <link rel="Stylesheet" href="CSS/reset.css" />
-    <link rel="Stylesheet" href="CSS/style.css" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
     </style>
+    <link rel="Stylesheet" href="CSS/header.css" />
+    <link rel="Stylesheet" href="CSS/main.css" />
+    <link rel="Stylesheet" href="CSS/sidebar.css" />
+    <link rel="Stylesheet" href="CSS/footer.css" />
+    <link rel="Stylesheet" href="CSS/reset.css" />
+    <link rel="Stylesheet" href="CSS/style.css" />
     <title>Record of hours worked for each employee - Trackgenix</title>
   </head>
   <body>
-    <header>
-      <h1>Trackgenix</h1>
-    </header>
     <aside>
-      <nav>
-        <img class="Icon-home" src="Assets/home-1.svg" alt="Icon-home" />
-        <h2 class="Home">Home</h2>
+      <nav class="Nav-aside">
+        <div>
+          <div class="Home-mobile">
+            <img class="Icon-home" src="Assets/home-1.svg" alt="Icon-home" />
+            <h2 class="Home">Home</h2>
+          </div>
+          <div class="Contact-mobile">
+            <img
+              class="Icon-contact"
+              src="Assets/chevron-circle-right.svg"
+              alt="Icon-contact"
+            />
+            <h4 class="contact">Contact</h4>
+          </div>
+        </div>
         <img
           class="Icon-signup"
           src="Assets/user-question.svg"
           alt="Icon-user-question"
         />
-        <h3 class="Signup">Sign up</h3>
-        <img class="Icon-login" src="Assets/user-1.svg" alt="Icon-user" />
-        <h3 class="Login">Log in</h3>
-        <img
-          class="Icon-contact"
-          src="Assets/chevron-circle-right.svg"
-          alt="Icon-contact"
-        />
-        <h4 class="contact">Contact</h4>
+        <div>
+          <div>
+            <h3 class="Signup">Sign up</h3>
+          </div>
+          <img class="Icon-login" src="Assets/user-1.svg" alt="Icon-user" />
+          <div>
+            <h3 class="Login">Log in</h3>
+          </div>
+        </div>
         <img class="Icon-phone" src="Assets/phone.svg" alt="Icon-phone" />
         <h5 class="phone">(000)000-0000</h5>
         <img class="Icon-mail" src="Assets/mail.svg" alt="Icon-mail" />
         <h5 class="mail">trackgenixsupp@rr.com</h5>
       </nav>
     </aside>
+    <header>
+      <div class="Title">
+        <h1>Trackgenix</h1>
+      </div>
+    </header>
     <main>
-      <section>
-        <img class="picture" src="Assets/picture.png" alt="picture-html" />
-        <p class="subtitule">
-          A tool designed to improve productivity and work managment
-        </p>
+      <p class="Subtitule">
+        A tool designed to improve productivity and work managment
+      </p>
+      <img class="picture" src="Assets/picture.png" alt="picture-html" />
+      <div class="First-paragraph">
         <p class="p1">
           Sometimes working with large groups of people can be difficult.
         </p>
@@ -56,50 +74,55 @@
           Trackgenix is a system created to make things easier in cases like
           that and accomplish your goals
         </p>
-        <p class="p1-3">easiest and fastest way.</p>
-      </section>
+        <p class="p1-3">in easiest and fastest way.</p>
+      </div>
+
       <section>
-        <h2 class="Functions">Functionalities</h2>
-        <img
+        <div class="Function">
+          <h2 class="Functionalities">Functionalities</h2>
+        </div>
+        <div>
+          <img
           class="Diamond-1"
           src="Assets/Rectangle 54rectangle.svg"
-          alt="Diamond"
-        />
+          alt="Diamond" />
+          <h3 class="Record-hours">Record hours</h3>
+          <img
+          class="Diamond-2"
+          src="Assets/Rectangle 9rectangle-2.svg"
+          alt="Diamond" />
+          <h3 class="Reports">Reports</h3>
+          <img
+          class="Diamond-3"
+          src="Assets/Rectangle 55Rectangle-3.svg"
+          alt="Diamond" />
+          <h3 class="Resource-managment">Resource managment</h3>
+          <img
+          class="Diamond-4"
+          src="Assets/Rectangle 56Rectangle-4.svg"
+          alt="Diamond" />
+          <h3 class="Multiple">Multiple roles</h3>
+        </div>
+
+        <div>
+        
         <img
           class="Calendar-1"
           src="Assets/calendar-clock.svg"
           alt="Icon-calendar-clock"
-        />
-        <h3 class="Record-hours">Record hours</h3>
-        <img
-          class="Diamond-2"
-          src="Assets/Rectangle 9rectangle-2.svg"
-          alt="Diamond"
         />
         <img
           class="Calendar-2"
           src="Assets/calendar-edit.svg"
           alt="Icon-calendar-edit"
         />
-        <h3 class="Reports">Reports</h3>
-        <img
-          class="Diamond-3"
-          src="Assets/Rectangle 55Rectangle-3.svg"
-          alt="Diamond"
-        />
         <img class="Calendar-3" src="Assets/calendar.svg" alt="Icon-calendar" />
-        <h3 class="Resource">Resource managment</h3>
-        <img
-          class="Diamond-4"
-          src="Assets/Rectangle 56Rectangle-4.svg"
-          alt="Diamond"
-        />
+        
         <img
           class="Calendar-4"
           src="Assets/calendar-user.svg"
           alt="Icon-calendar-user"
         />
-        <h3 class="Multiple">Multiple roles</h3>
       </section>
       <section>
         <h2 class="Why">Why using Trackgenix?</h2>

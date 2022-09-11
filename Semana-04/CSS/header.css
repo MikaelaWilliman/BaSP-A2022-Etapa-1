@@ -1,0 +1,15 @@
+/*mobile*/
+@media screen and (max-width: 480px) {
+  .Title {
+    margin-top: 10%;
+    display: flex;
+    background: #ff0000;
+    color: #ffff;
+    height: 77px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+  }
+}
