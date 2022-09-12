@@ -284,9 +284,6 @@
 .Support {
   margin-top: 10%;
 }
-.Support-list {
-}
-
 footer {
   display: flex;
   height: 88px;
@@ -310,4 +307,337 @@ footer {
   text-align: center;
   margin-top: 4%;
   line-height: 15px;
+}
+/*tablet*/
+@media screen and (max-width: 1024px) {
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  .picture {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  .Subtitule {
+    margin-top: 8%;
+    width: 100%;
+    text-align: center;
+    font-family: "Roboto";
+    font-style: italic;
+    font-size: 23px;
+  }
+  .p1 {
+    text-align: center;
+    width: 65%;
+    margin-left: 22%;
+  }
+  .p1-2,
+  .p1-3 {
+    text-align: center;
+    width: 68%;
+    margin-left: 23%;
+  }
+  .First-paragraph {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 70%;
+    font-family: "Roboto";
+    font-style: italic;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  /*page two*/
+
+  .Functionalities,
+  .Why,
+  .Information,
+  .History-title {
+    display: flex;
+    width: 100%;
+    height: 59px;
+    background: #ff0000;
+    color: #ffff;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40%;
+    font-weight: bold;
+  }
+
+  .Diamond-1,
+  .Diamond-2,
+  .Diamond-3,
+  .Diamond-4 {
+    height: 100px;
+    margin-top: 15%;
+    margin-left: 30%;
+  }
+  .Calendar-1,
+  .Calendar-2,
+  .Calendar-3,
+  .Calendar-4 {
+    height: 70px;
+    margin-left: -9%;
+    margin-top: 0%;
+  }
+  .Record-hours,
+  .Reports,
+  .Resource-managment,
+  .Multiple {
+    text-align: center;
+    margin-top: -6%;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .Resource-managment {
+    margin-left: 9%;
+  }
+  /*page trhee*/
+
+  .Trending-up,
+  .Calendar-check,
+  .Users,
+  .Arrows {
+    margin-top: 10%;
+    height: 105px;
+    display: flex;
+    margin-left: 15%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: column;
+  }
+  .Boost-p,
+  .Work-p,
+  .Leadership-p,
+  .Decision-p {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+  }
+  .Users {
+    margin-left: 10%;
+  }
+  .Boost,
+  .Work,
+  .Leadership,
+  .Decision {
+    font-size: 42px;
+    color: #000000;
+    font-weight: bold;
+  }
+  .Boost-p {
+    margin-top: -78%;
+    padding-top: 8%;
+  }
+  .Work-p {
+    padding-top: 10%;
+  }
+  .Leadership-p {
+    margin-top: 13%;
+    margin-right: -10%;
+  }
+  .Decision-p {
+    margin-top: 10%;
+    margin-right: 10%;
+  }
+  .Boost-p,
+  .Work-p,
+  .Leadership-p,
+  .Decision-p {
+    display: flex;
+    align-content: space-around;
+    font-weight: bold;
+    margin-left: 3%;
+  }
+  /*page four*/
+  .Information {
+    margin-top: 70%;
+  }
+  .Rectangle-information {
+    display: flex;
+    height: 426px;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 15%;
+  }
+
+  .Form {
+    display: flex;
+    margin-top: -90%;
+    display: flex;
+    margin-top: -80%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+  }
+
+  /*page five*/
+
+  .History-title {
+    margin-top: 95%;
+  }
+  .Rectangle-history {
+    height: 750.27px;
+    width: 100%;
+  }
+  .History-1,
+  .History-2,
+  .History-3,
+  .History-4,
+  .History-5,
+  .History-6 {
+    height: 270.24px;
+    width: 32.7%;
+    border-radius: 30px;
+  }
+  .Rectangles {
+    margin-top: -65%;
+  }
+  .Rectangles-2 {
+    margin-top: -130%;
+  }
+  .History-titles,
+  .History-titles2 {
+    font-family: "Rokkitt";
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 8%;
+  }
+  .History-titles {
+    margin-top: -60%;
+  }
+  .History-titles2 {
+    margin-top: 35%;
+  }
+  .p2007,
+  .p2011,
+  .p2014,
+  .p2018,
+  .p2021,
+  .p2022 {
+    display: flex;
+    height: 133.56px;
+    left: 329.28px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: #ffff;
+    margin-left: 4%;
+    font-weight: 500;
+  }
+  .p2007 {
+    margin-top: 8%;
+    width: 125px;
+  }
+  .p2011 {
+    margin-left: 38%;
+    margin-top: -30%;
+    width: 21%;
+  }
+  .p2014 {
+    width: 30%;
+    margin-left: 68%;
+    margin-top: -27%;
+  }
+  .p2018 {
+    width: 30%;
+    margin-left: 1%;
+    margin-top: 10%;
+  }
+  .p2021 {
+    width: 23%;
+    margin-left: 37%;
+    margin-top: -28%;
+  }
+  .p2022 {
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -28%;
+  }
+  /*page six*/
+
+  .Contact2 {
+    font-family: "Roboto";
+    display: flex;
+    margin-top: 60%;
+    margin-left: 10%;
+    height: 208px;
+    width: 80%;
+    background: #ff5454;
+    align-content: space-around;
+    font-size: 20px;
+    font-weight: 700;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Contacto {
+    margin-top: -20%;
+  }
+  .Phone {
+    display: flex;
+  }
+  /*page seven*/
+
+  .Products,
+  .Business,
+  .Support {
+    display: flex;
+    width: 80%;
+    height: 37px;
+    left: 147px;
+    margin-top: 80%;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 24px;
+    color: #ff0000;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+  .Products-list,
+  .Business-list,
+  .Support-list {
+    margin-top: 5%;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .Business {
+    margin-top: 10%;
+  }
+  .Support {
+    margin-top: 10%;
+  }
+  footer {
+    display: flex;
+    height: 88px;
+    width: 100%;
+    background-color: #ff0000;
+    margin-top: 90%;
+  }
+  .Images {
+    margin-top: 15%;
+    padding-top: 2%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .Copyright {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 4%;
+    line-height: 15px;
+  }
 }
