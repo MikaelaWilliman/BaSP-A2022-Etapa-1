@@ -286,7 +286,7 @@ aside {
   font-size: 32px;
 }
 /*page three*/
-.Why {
+/*.Why {
   position: relative;
   width: 472px;
   height: 72px;
@@ -437,7 +437,7 @@ aside {
   color: rgba(0, 0, 0, 0.6);
 }
 /*page four*/
-.Information {
+/*.Information {
   position: relative;
   width: 737px;
   height: 72px;
@@ -536,7 +536,7 @@ aside {
   background: #ff0000;
 }
 /*page five*/
-.History-title {
+/*.History-title {
   position: relative;
   width: 430px;
   height: 65.59px;
@@ -734,7 +734,7 @@ aside {
   color: #ffff;
 }
 /*page Six*/
-.Products {
+/*.Products {
   position: relative;
   width: 155px;
   height: 35px;

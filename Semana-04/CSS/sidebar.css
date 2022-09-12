@@ -7,10 +7,6 @@
     width: 100%;
     height: 85px;
   }
-  .Icon-phone,
-  .phone,
-  .Icon-mail,
-  .mail,
   .Icon-login,
   .Icon-signup {
     display: none;
